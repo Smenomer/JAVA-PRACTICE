@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class arraylist {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 //        int[] num=new int[5];
 //        System.out.println("Enter the elements of the array");
 //        for (int i = 0; i < num.length; i++) {
@@ -47,17 +47,39 @@ public class arraylist {
 //            }
 //
 //        }
-        int[][] arr={
-                {1,2,3},
-                {3,4,5},
-                {5,6,7}
-        };
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                System.out.println(arr[i][j]+"");
+//        int[][] arr={
+//                {1,2,3},
+//                {3,4,5},
+//                {5,6,7}
+//        };
+//        for(int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                System.out.println(arr[i][j]+"");
+//            }
+//            System.out.println();
+//        }
+
+        int[][] arra = new int[3][3];
+        for (int i = 0; i < arra.length; i++) {
+            for (int j = 0; j < arra[i].length; j++) {
+                arra[i][j] = sc.nextInt();
+
+            }
+
+        }
+        System.out.println("The array:");
+        for (int i = 0; i < arra.length; i++) {
+            for (int j = 0; j < arra[i].length; j++) {
+                System.out.print(arra[i][j] + " ");
             }
             System.out.println();
         }
+        for (int i = 0; i < arra.length; i++) {
+            System.out.println(Arrays.toString(arra[i]));
 
+        }
+        for(int[] a:arra){
+            System.out.println(Arrays.toString(a));
+        }
     }
 }
