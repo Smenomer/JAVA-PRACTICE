@@ -6,7 +6,6 @@ public class Max {
         System.out.println(max(arr));
         System.out.println(maxRange(arr,0,8));
     }
-
     static int maxRange(int[] arr,int index1,int index2){
         int big=arr[index1];
         for (int i = index1+1; i < index2; i++) {
