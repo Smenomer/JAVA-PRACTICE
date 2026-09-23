@@ -4,7 +4,6 @@ public class Max {
     public static void main(String[] args) {
         int[] arr= {11,22,33,44,55,66,77,88};
         System.out.println(max(arr));
-
         System.out.println(maxRange(arr,0,8));
     }
 
@@ -14,8 +13,8 @@ public class Max {
             if(arr[i]>big)
                 big=arr[i];
 
-        }return big;}
-
+        }return big;
+    }
     static int max(int[] arr){
         int big=arr[0];
         for (int i = 1; i < arr.length; i++) {
