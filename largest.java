@@ -16,8 +16,6 @@ public class largest {
 //            max=q;
 //        }
 //        System.out.println("Max is:"+max);
-
-
 //        System.out.println(Math.max(q,Math.max(n,p)));
 
 
