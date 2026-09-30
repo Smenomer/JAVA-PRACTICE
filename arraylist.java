@@ -21,7 +21,6 @@ public class arraylist {
 //        System.out.println("Enter the elements of the array");
 //        for (int i = 0; i < num.length; i++) {
 //            num[i]=sc.nextInt();
-//
 //        }
 //        System.out.println(Arrays.toString(num));
 
@@ -30,8 +29,6 @@ public class arraylist {
 //        for (int i = 0; i < n.length; i++) {
 //            n[i]=sc.next();
 //        }
-//
-//
 //            System.out.println("Elements of the array are:");
 //            System.out.println(Arrays.toString(n));
 //
